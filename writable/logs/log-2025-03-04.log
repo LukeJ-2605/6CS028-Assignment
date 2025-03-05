@@ -1,0 +1,675 @@
+CRITICAL - 2025-03-04 21:21:01 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: pokemon]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:24:36 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: pokemon]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:26:24 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: pokemon]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:28:16 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: pokemon]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:38:46 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: pokemon]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:05 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:32 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:33 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:34 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:35 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:35 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:36 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:36 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:53 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: home]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:39:57 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: about]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:40:34 --> ParseError: syntax error, unexpected variable "$routes", expecting "," or ";"
+[Method: GET, Route: about]
+in APPPATH/Config/Routes.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:42:35 --> Error: Call to a member function getPokemon() on null
+[Method: GET, Route: pokemon]
+in APPPATH/Controllers/Pokemon.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:45:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: pokemon]
+in APPPATH/Models/PokemonModel.php on line 12.
+ 1 VENDORPATH/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/Config/Factories.php(297): class_exists()
+ 4 SYSTEMPATH/Config/Factories.php(216): CodeIgniter\Config\Factories::locateClass()
+ 5 SYSTEMPATH/Config/Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance()
+ 6 SYSTEMPATH/Common.php(804): CodeIgniter\Config\Factories::__callStatic()
+ 7 APPPATH/Controllers/Pokemon.php(12): model()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 21:45:37 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: pokemon]
+in APPPATH/Models/PokemonModel.php on line 12.
+ 1 VENDORPATH/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/Config/Factories.php(297): class_exists()
+ 4 SYSTEMPATH/Config/Factories.php(216): CodeIgniter\Config\Factories::locateClass()
+ 5 SYSTEMPATH/Config/Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance()
+ 6 SYSTEMPATH/Common.php(804): CodeIgniter\Config\Factories::__callStatic()
+ 7 APPPATH/Controllers/Pokemon.php(12): model()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:17:26 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:18:35 --> ErrorException: Undefined variable $card_name
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:18:37 --> ErrorException: Undefined variable $card_name
+[Method: GET, Route: about]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:18:45 --> ErrorException: Undefined variable $card_name
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:18:50 --> ErrorException: Undefined variable $card_name
+[Method: GET, Route: home]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:18:51 --> ErrorException: Undefined variable $card_name
+[Method: GET, Route: home]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:20:10 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:21:03 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 8.
+ 1 APPPATH/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:25:28 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:25:53 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:25:56 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:26:03 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:26:15 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:26:17 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:36 --> ErrorException: Undefined variable $pokemon_item
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:37 --> ErrorException: Undefined variable $pokemon_item
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:38 --> ErrorException: Undefined variable $pokemon_item
+[Method: GET, Route: home]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:39 --> ErrorException: Undefined variable $pokemon_item
+[Method: GET, Route: home]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:49 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:50 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:50 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:27:53 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:32:00 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:32:26 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:10 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:18 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:18 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon/cinderace-ex]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->show()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:36:21 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/templates/header.php on line 9.
+ 1 APPPATH/Views/templates/header.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:37:32 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/pokemon/index.php on line 4.
+ 1 APPPATH/Views/pokemon/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/pokemon/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:37:33 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/pokemon/index.php on line 4.
+ 1 APPPATH/Views/pokemon/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/pokemon/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:37:38 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/pokemon/index.php on line 4.
+ 1 APPPATH/Views/pokemon/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/pokemon/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:37:38 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/pokemon/index.php on line 4.
+ 1 APPPATH/Views/pokemon/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/pokemon/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-04 22:37:38 --> ErrorException: Undefined variable $title
+[Method: GET, Route: pokemon]
+in APPPATH/Views/pokemon/index.php on line 4.
+ 1 APPPATH/Views/pokemon/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/stud/0/2222880/public_html/assignment/app/Views/pokemon/index.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pokemon.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pokemon->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
