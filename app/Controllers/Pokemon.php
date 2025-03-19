@@ -31,7 +31,8 @@ class Pokemon extends BaseController
             throw new PageNotFoundException('Cannot find the pokemon item: ' . $slug);
         }
 
-        $data['title'] = $data['pokemon']['title'];
+        $data['card_name'] = $data['pokemon']['card_name'];
+		
 
         return view('templates/header', $data)
             . view('pokemon/view')
@@ -41,7 +42,7 @@ class Pokemon extends BaseController
 	{
 		helper('form');
 		
-		return view('templates/header', ['title' => 'Add a Card'])
+		return view('templates/header', ['title' => 'Add Card Information'])
 			.view('pokemon/create')
 			.view('templates/footer');
 	}
@@ -49,12 +50,12 @@ class Pokemon extends BaseController
     {
         helper('form');
 
-        $data = $this->request->getPost(['name', 'type']);
+        $data = $this->request->getPost(['card_name', 'card_type']);
 
         // Checks whether the submitted data passed the validation rules.
         if (! $this->validateData($data, [
-            'name' => 'required|max_length[255]|min_length[3]',
-            'type'  => 'required|max_length[5000]|min_length[10]',
+            'card_name' => 'required|max_length[255]|min_length[3]',
+            'card_type'  => 'required|max_length[5000]|min_length[3]',
         ])) {
             // The validation fails, so returns the form.
             return $this->new();
@@ -66,9 +67,9 @@ class Pokemon extends BaseController
         $model = model(PokemonModel::class);
 
         $model->save([
-            'name' => $post['card_name'],
+            'card_name' => $post['card_name'],
             'slug'  => url_title($post['card_name'], '-', true),
-            'type'  => $post['card_type'],
+            'card_type'  => $post['card_type'],
         ]);
 
         return view('templates/header', ['title' => 'Add Card Information'])

@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class PokemonModel extends Model
 {
     protected $table = 'pokemon';
-	protected $allowedFields = ['name', 'slug', 'type'];
+	protected $allowedFields = ['card_name', 'slug', 'card_type'];
 
  public function getPokemon($slug = false)
     {
