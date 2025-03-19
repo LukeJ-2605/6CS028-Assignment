@@ -1,15 +1,19 @@
 <?php
 
-
 use CodeIgniter\Router\RouteCollection;
-use App\Controllers\Home;
-use App\Controllers\Pages;
-use App\Controllers\PokemonController;
+
 /**
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+use App\Controllers\Pokemon;
+use App\Controllers\Pages;
 
-$routes->get('pokemon', [PokemonController::class, 'index']);          
-$routes->get('pokemon/view/(:any)', [PokemonController::class, 'show']);
+$routes->get('pokemon', [Pokemon::class, 'index']);
+$routes->get('pokemon/new', [Pokemon::class, 'new']);
+$routes->post('pokemon', [Pokemon::class, 'create']);
+$routes->get('pokemon/(:segment)', [Pokemon::class, 'show']);
+
+
+$routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);

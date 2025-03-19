@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controllers;
-
 use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Pages extends BaseController

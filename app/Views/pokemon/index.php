@@ -1,36 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Cards</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-     <div class="container mt-4">
-        <h1 class="text-center">Pokémon Cards</h1>
-        <div class="row">
-            <?php if (!empty($cards)): ?>
-                <?php foreach ($cards as $card): ?>
-                    <div class="col-md-3 mb-4"> <!-- 4 cards per row -->
-                        <div class="card">
-                            <img src="<?php echo esc($card['images']['small'] ?? ''); ?>" class="card-img-top" alt="<?php echo esc($card['name']); ?>">
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo esc($card['name']); ?></h5>
-                                <p class="card-text">Type: <?php echo esc(implode(', ', $card['types'] ?? [])); ?></p>
-                                <p class="card-text">Set: <?php echo esc($card['set']['name'] ?? 'N/A'); ?></p>
-                                <a href="" class="btn btn-primary">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            <?php else: ?>
-                <p>No Pokémon cards found.</p>
-            <?php endif; ?>
-        </div>
-    </div>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php if ($pokemon_list !== []): ?>
+
+	<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
+	
+    <?php foreach ($pokemon_list as $pokemon_item): ?>
+		<div class="col">
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h3 class="card-title"><?= esc($pokemon_item['card_name']) ?></h3>
+					<p class="card-text"><img src="<?php echo esc($pokemon_item['image_url']) ?>"></p>
+					<p class="card-text"><?= esc($pokemon_item['card_type']) ?></p>
+					<p> <a href="<?=base_url()?>/pokemon/<?= esc($pokemon_item['slug'], 'url') ?>">View article</a></p>
+				</div>
+			</div>
+		</div>
+		
+    <?php endforeach ?>
+	</div>
+<?php else: ?>
+
+    <h3>No Pokemon</h3>
+
+    <p>Unable to find any pokemon for you.</p>
+
+<?php endif ?>
