@@ -25,7 +25,10 @@ class Pokemon extends BaseController
     {
         $model = model(PokemonModel::class);
 
-        $data['pokemon'] = $model->getPokemon($slug);
+        $data = [
+		'pokemon' => $model->getPokemon($slug),
+		'title'   => 'Pokemon Info',
+		];
 
         if ($data['pokemon'] === null) {
             throw new PageNotFoundException('Cannot find the pokemon item: ' . $slug);
