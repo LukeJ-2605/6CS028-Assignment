@@ -106,5 +106,4 @@ class Pokemon extends BaseController
         . view('templates/footer');
 }
 	
-
 }

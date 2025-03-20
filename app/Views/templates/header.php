@@ -3,7 +3,15 @@
 <head>
     <title><?= esc($title) ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Buy Cards</title>
+    <style>
+        #map {
+            height: 600px; /* Set the height of the map */
+        }
+    </style>
 </head>
 <body>
 
@@ -25,7 +33,7 @@
           <a class="nav-link active" aria-current="page" href="<?= base_url('pokemon') ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?=base_url('pokemon/store_locations') ?>">Buy Cards</a>
+          <a class="nav-link" href="<?=base_url('store_locations') ?>">Buy Cards</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url('pokemon/new') ?>">Add Card</a>

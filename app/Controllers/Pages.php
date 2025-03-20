@@ -23,4 +23,10 @@ class Pages extends BaseController
             . view('pages/' . $page)
             . view('templates/footer');
     }
+	public function storeLocations()
+{
+    return view('templates/header', ['title' => 'Nearby Stores'])
+        . view('pokemon/store_locations') // Ensure this view file exists
+        . view('templates/footer');
+}
 }
