@@ -11,6 +11,14 @@
     <label for="Type">Card Type</label>
     <textarea name="card_type" cols="45" rows="4"><?= set_value('card_type') ?></textarea>
     <br>
+	
+	<label for="Image">Card Image</label>
+    <textarea name="card_image" cols="45" rows="4"><?= set_value('image_url') ?></textarea>
+    <br>
+	
+	<label for="Set">Card Set</label>
+    <textarea name="card_set" cols="45" rows="4"><?= set_value('card_set') ?></textarea>
+    <br>
 
     <input type="submit" name="submit" value="Add Card">
 </form>

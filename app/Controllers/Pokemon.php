@@ -53,12 +53,14 @@ class Pokemon extends BaseController
     {
         helper('form');
 
-        $data = $this->request->getPost(['card_name', 'card_type']);
+        $data = $this->request->getPost(['card_name', 'card_type', 'card_image','card_set']);
 
         // Checks whether the submitted data passed the validation rules.
         if (! $this->validateData($data, [
             'card_name' => 'required|max_length[255]|min_length[3]',
             'card_type'  => 'required|max_length[5000]|min_length[3]',
+			'card_image' => 'required|max_length[10000]|min_length[3]',
+			'card_set' => 'required|max_length[5000]|min_length[3]',
         ])) {
             // The validation fails, so returns the form.
             return $this->new();
@@ -68,16 +70,41 @@ class Pokemon extends BaseController
         $post = $this->validator->getValidated();
 
         $model = model(PokemonModel::class);
+		
+		$newCardId = $model->generateCardId();
 
-        $model->save([
+        $model->insert([
+			'card_id' => $newCardId,
             'card_name' => $post['card_name'],
             'slug'  => url_title($post['card_name'], '-', true),
             'card_type'  => $post['card_type'],
+			'image_url' => $post['card_image'],
+			'card_set' => $post['card_set'],
         ]);
 
         return view('templates/header', ['title' => 'Add Card Information'])
             . view('pokemon/success')
             . view('templates/footer');
     }
+	public function search()
+{
+    $query = $this->request->getGet('query');
+    
+    if (empty($query)) {
+        return redirect()->to(base_url('pokemon'));
+    }
+    
+    $model = model(PokemonModel::class);
+    $data = [
+        'title' => 'Search Results for: ' . $query,
+        'pokemon_list' => $model->searchPokemon($query),
+        'search_term' => $query
+    ];
+    
+    return view('templates/header', $data)
+        . view('pokemon/index', $data)
+        . view('templates/footer');
+}
+	
 
 }
