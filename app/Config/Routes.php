@@ -13,6 +13,7 @@ $routes->get('pokemon/search', [Pokemon::class, 'search']);
 $routes->get('pokemon/(:segment)', [Pokemon::class, 'show']);
 
 $routes->get('ajax/get/(:segment)', [Ajax::class, 'get']);
+$routes->get('ajax/suggest/(:any)', [Ajax::class, 'suggest']);
 $routes->get('store_locations', [Pages::class, 'storeLocations']);
 
 $routes->get('pages', [Pages::class, 'index']);

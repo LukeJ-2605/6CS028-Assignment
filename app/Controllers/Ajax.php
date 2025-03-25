@@ -12,5 +12,13 @@ class Ajax extends BaseController
         // Use the response object to set JSON headers and return data
         return $this->response->setJSON($data);
     }
+	//Function to suggest search suggestions
+	public function suggest($query = null)
+{
+    $model = model(PokemonModel::class);
+    $suggestions = $model->getSuggestions($query); // Call the model method to get suggestions
+
+    return $this->response->setJSON($suggestions);
+}
 	
 }

@@ -46,5 +46,36 @@
 		});
 	}
 	
+	function fetchSuggestions(query) {
+    if (query.length < 2) {
+        document.getElementById('suggestions').style.display = 'none';
+        return; // Don't fetch suggestions if the query is too short
+    }
+
+    fetch('<?= base_url('ajax/suggest') ?>/' + query)
+        .then(response => response.json())
+        .then(data => {
+            const suggestionsContainer = document.getElementById('suggestions');
+            suggestionsContainer.innerHTML = ''; // Clear previous suggestions
+
+            if (data.length > 0) {
+                data.forEach(item => {
+                    const suggestionItem = document.createElement('div');
+                    suggestionItem.textContent = item.card_name; // Adjust based on your data structure
+                    suggestionItem.classList.add('suggestion-item');
+                    suggestionItem.onclick = function() {
+                        document.getElementById('search-bar').value = item.card_name; // Set the input value
+                        document.getElementById('search-form').submit(); // Submit the form
+                    };
+                    suggestionsContainer.appendChild(suggestionItem);
+                });
+                suggestionsContainer.style.display = 'block'; // Show suggestions
+            } else {
+                suggestionsContainer.style.display = 'none'; // Hide if no suggestions
+            }
+        })
+        .catch(err => console.error('Error fetching suggestions:', err));
+}
+	
 	
 </script>

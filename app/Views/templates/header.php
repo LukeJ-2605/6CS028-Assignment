@@ -9,8 +9,40 @@
     <title>Buy Cards</title>
     <style>
         #map {
-            height: 600px; /* Set the height of the map */
+            height: 600px; /* The height of the map */
         }
+		 .card-body {
+        text-align: center; /* Center text and images */
+		}
+    .card img {
+        max-width: 100%; /* Ensure the image is responsive */
+        height: auto; /* Maintain aspect ratio */
+		}
+		
+		.search-container {
+    position: relative; /* Position relative to contain the absolute positioning of suggestions */
+}
+
+.suggestions-list {
+    max-height: 200px; /* Limit the height of the suggestions */
+    overflow-y: auto; /* Enable scrolling if there are many suggestions */
+    border: 1px solid #ccc; /* Border for the suggestions box */
+    background: white; /* Background color */
+    position: absolute; /* Position it absolutely */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 100%; /* Match the width of the search bar */
+    margin-top: 0; /* No margin to align directly below the search bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
+}
+
+.suggestion-item {
+    padding: 8px; /* Padding for each suggestion */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
     </style>
 </head>
 <body>
@@ -52,10 +84,13 @@
     </div>
 
     <!-- Search Box on the Right -->
-    <form class="d-flex ms-auto" role="search" action="<?= base_url('pokemon/search') ?>" method="get">
-  <input class="form-control me-2" type="search" name="query" id="search-bar" placeholder="Search" aria-label="Search">
-  <button class="btn btn-outline-success" type="submit">Search</button>
-</form>
+    <div class="search-container" style="position: relative;">
+    <form class="d-flex ms-auto" role="search" action="<?= base_url('pokemon/search') ?>" method="get" id="search-form">
+        <input class="form-control me-2" type="search" name="query" id="search-bar" placeholder="Search" aria-label="Search" oninput="fetchSuggestions(this.value)">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <div id="suggestions" class="suggestions-list" style="display: none;"></div>
+</div>
 
   </div>
 </nav>

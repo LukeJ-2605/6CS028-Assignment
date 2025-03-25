@@ -31,11 +31,20 @@ class PokemonModel extends Model
         return $randomId;
     }
 	public function searchPokemon($keyword)
-{
+	{
     return $this->like('card_name', $keyword)
                 ->orLike('card_type', $keyword)
                 ->findAll();
-}
+	}
+	public function getSuggestions($query)
+	{
+    if (!$query) {
+        return [];
+    }
+
+    return $this->where('card_name LIKE', "%$query%")
+                ->findAll();
+	}
 
 
 }
