@@ -1,7 +1,10 @@
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
+<script>
    // Function to initialize the map
 function initMap(lat, lon) {
     // Show the loading spinner
@@ -114,6 +117,33 @@ if (navigator.geolocation) {
 } else {
     alert("Geolocation is not supported by this browser.");
 }
+
+ // Check for browser support
+    if (!('webkitSpeechRecognition' in window)) {
+        alert("Your browser does not support speech recognition. Please use Google Chrome.");
+    } else {
+        const recognition = new webkitSpeechRecognition();
+        recognition.continuous = false; // Stop after one result
+        recognition.interimResults = false; // No interim results
+
+        // Event handler for when speech recognition results are returned
+        recognition.onresult = function(event) {
+            const transcript = event.results[0][0].transcript; // Get the recognized text
+            document.getElementById('search-bar').value = transcript; // Populate the search bar
+            document.getElementById('search-form').submit(); // Optionally submit the form
+        };
+
+        // Event handler for errors
+        recognition.onerror = function(event) {
+            console.error("Speech recognition error: ", event.error);
+        };
+
+        // Start speech recognition when the button is clicked
+        document.getElementById('start-speech').addEventListener('click', function() {
+            recognition.start(); // Start listening
+        });
+    }
+
     </script>
 </body>
 </html>

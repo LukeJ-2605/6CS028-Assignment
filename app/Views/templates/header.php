@@ -9,15 +9,18 @@
     <title>Buy Cards</title>
     <style>
 		body {
-			background-image: url('https://www.shutterstock.com/image-photo/ayutthaya-thailand-nov-25-2021-back-2080690354'); /* Replace with your image path */
-			background-size: cover; /* Cover the entire background */
-			background-position: center; /* Center the image */
+			background-color: #D2B48C; /* A nice blue color */
+		}
+		.sticky-top {
+			background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 		}
         .map {
             height: 600px; /* The height of the map */
         }
 		 .card-body {
-        text-align: center; /* Center text and images */
+        text-align: center;
+		background-color: #F5F5DC;		/* Center text and images */
 		}
 		.card img {
         max-width: 100%; /* Ensure the image is responsive */
@@ -48,12 +51,19 @@
 		.suggestion-item:hover {
 			background-color: #f0f0f0; /* Highlight on hover */
 		}
+		.card-custom {
+			background-color: #F5F5DC; /* Dark brown color */
+			color: black; /* Change text color to white for better contrast */
+		}
+		.navbar-custom {
+			background-color: #F5F5DC; /* Tan color */
+			color: black; /* Dark text for better readability */
+		}
     </style>
 </head>
 <body>
-
-<h1><?= esc($title) ?></h1>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
   <div class="container-fluid d-flex">
     <!-- Toggler Button on the Left -->
     <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +71,7 @@
     </button>
 
     <!-- Navbar Brand -->
-    
+    <h1><?= esc($title) ?></h1>
 
     <!-- Navbar Items in the Center -->
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -93,13 +103,14 @@
     <form class="d-flex ms-auto" role="search" action="<?= base_url('pokemon/search') ?>" method="get" id="search-form">
         <input class="form-control me-2" type="search" name="query" id="search-bar" placeholder="Search" aria-label="Search" oninput="fetchSuggestions(this.value)">
         <button class="btn btn-outline-success" type="submit">Search</button>
+        <button type="button" class="btn btn-outline-info" id="start-speech">🎤</button> <!-- Speech button -->
     </form>
     <div id="suggestions" class="suggestions-list" style="display: none;"></div>
 </div>
 
   </div>
 </nav>
-<div class="container">
+
 
 
 

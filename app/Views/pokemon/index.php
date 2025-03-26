@@ -2,14 +2,14 @@
 
 <?php if ($pokemon_list !== []): ?>
 
-	<div class="row row-cols-1 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-0 justify-content-center">
+	<div class="row row-cols-1 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  g-0 justify-content-center">
 	
     <?php foreach ($pokemon_list as $pokemon_item): ?>
 		<div class="col">
-			<div class="card w-100 mt-2">
+			<div class="card w-100 mt-2 card-custom">
 				<div class="card-body">
-					<h3 class="card-title"><?= esc($pokemon_item['card_name']) ?></h3>
-					<p class="card-text"><img src="<?php echo esc($pokemon_item['image_url']) ?>"></p>
+					<h4 class="card-title"><?= esc($pokemon_item['card_name']) ?></h4>
+					<p class="card-text"><img data-src="<?php echo esc($pokemon_item['image_url']) ?>" class="lazy-load"></p>
 					<p class="card-text"><?= esc($pokemon_item['card_type']) ?></p>
 					<p> <a href="<?=base_url()?>/pokemon/<?= esc($pokemon_item['slug'], 'url') ?>">View Card</a></p>
 					<p><button onclick="getData('<?= esc($pokemon_item['slug'], 'url') ?>')">View Card Details via Ajax</button></p>
@@ -76,6 +76,30 @@
         })
         .catch(err => console.error('Error fetching suggestions:', err));
 }
+document.addEventListener("DOMContentLoaded", function() {
+        const lazyLoadImages = document.querySelectorAll('.lazy-load');
+
+        const options = {
+            root: null, // Use the viewport as the root
+            rootMargin: '0px',
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        };
+
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src; // Set the src from data-src
+                    img.classList.remove('lazy-load'); // Remove lazy-load class
+                    observer.unobserve(img); // Stop observing this image
+                }
+            });
+        }, options);
+
+        lazyLoadImages.forEach(image => {
+            imageObserver.observe(image); // Start observing each image
+        });
+    });
 	
 	
 </script>
