@@ -3,46 +3,51 @@
 <head>
     <title><?= esc($title) ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <title>Buy Cards</title>
     <style>
-        #map {
+		body {
+			background-image: url('https://www.shutterstock.com/image-photo/ayutthaya-thailand-nov-25-2021-back-2080690354'); /* Replace with your image path */
+			background-size: cover; /* Cover the entire background */
+			background-position: center; /* Center the image */
+		}
+        .map {
             height: 600px; /* The height of the map */
         }
 		 .card-body {
         text-align: center; /* Center text and images */
 		}
-    .card img {
+		.card img {
         max-width: 100%; /* Ensure the image is responsive */
         height: auto; /* Maintain aspect ratio */
 		}
 		
 		.search-container {
-    position: relative; /* Position relative to contain the absolute positioning of suggestions */
-}
+		position: relative; /* Position relative to contain the absolute positioning of suggestions */
+		}
 
-.suggestions-list {
-    max-height: 200px; /* Limit the height of the suggestions */
-    overflow-y: auto; /* Enable scrolling if there are many suggestions */
-    border: 1px solid #ccc; /* Border for the suggestions box */
-    background: white; /* Background color */
-    position: absolute; /* Position it absolutely */
-    z-index: 1000; /* Ensure it appears above other elements */
-    width: 100%; /* Match the width of the search bar */
-    margin-top: 0; /* No margin to align directly below the search bar */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
-}
+		.suggestions-list {
+			max-height: 200px; /* Limit the height of the suggestions */
+			overflow-y: auto; /* Enable scrolling if there are many suggestions */
+			border: 1px solid #ccc; /* Border for the suggestions box */
+			background: white; /* Background color */
+			position: absolute; /* Position it absolutely */
+			z-index: 1000; /* Ensure it appears above other elements */
+			width: 100%; /* Match the width of the search bar */
+			margin-top: 0; /* No margin to align directly below the search bar */
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
+		}	
 
-.suggestion-item {
-    padding: 8px; /* Padding for each suggestion */
-    cursor: pointer; /* Pointer cursor on hover */
-}
+		.suggestion-item {
+			padding: 8px; /* Padding for each suggestion */
+			cursor: pointer; /* Pointer cursor on hover */
+		}
 
-.suggestion-item:hover {
-    background-color: #f0f0f0; /* Highlight on hover */
-}
+		.suggestion-item:hover {
+			background-color: #f0f0f0; /* Highlight on hover */
+		}
     </style>
 </head>
 <body>
@@ -94,6 +99,8 @@
 
   </div>
 </nav>
+<div class="container">
+
 
 
 

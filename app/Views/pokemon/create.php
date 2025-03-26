@@ -13,7 +13,7 @@
     <br>
 	
 	<label for="Image">Card Image</label>
-    <textarea name="card_image" cols="45" rows="4"><?= set_value('image_url') ?></textarea>
+    <textarea name="card_image" cols= rows=><?= set_value('image_url') ?></textarea>
     <br>
 	
 	<label for="Set">Card Set</label>
