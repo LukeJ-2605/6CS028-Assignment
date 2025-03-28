@@ -41,6 +41,7 @@ class Pokemon extends BaseController
             . view('pokemon/view')
             . view('templates/footer');
     }
+	
 	public function new()
 	{
 		helper('form');
@@ -50,42 +51,48 @@ class Pokemon extends BaseController
 			.view('templates/footer');
 	}
 	    public function create()
-    {
-        helper('form');
+{
+    helper('form');
 
-        $data = $this->request->getPost(['card_name', 'card_type', 'card_image','card_set']);
+    $data = $this->request->getPost(['card_name', 'card_type', 'image_url', 'card_set']);
+    
+    if (! $this->validateData($data, [
+        'card_name' => 'required|max_length[255]|min_length[3]',
+        'card_type'  => 'required|max_length[5000]|min_length[3]',
+        'card_set' => 'required|max_length[5000]|min_length[3]',
+        'image_url' => 'required|max_length[1000000]|min_length[3]', // Validate image upload
+    ])) {
+        return $this->new();
+    }
 
-        // Checks whether the submitted data passed the validation rules.
-        if (! $this->validateData($data, [
-            'card_name' => 'required|max_length[255]|min_length[3]',
-            'card_type'  => 'required|max_length[5000]|min_length[3]',
-			'card_image' => 'required|max_length[10000]|min_length[3]',
-			'card_set' => 'required|max_length[5000]|min_length[3]',
-        ])) {
-            // The validation fails, so returns the form.
-            return $this->new();
-        }
+    $post = $this->validator->getValidated();
 
-        // Gets the validated data.
-        $post = $this->validator->getValidated();
+    $model = model(PokemonModel::class);
+    
+    $newCardId = $model->generateCardId();
 
-        $model = model(PokemonModel::class);
-		
-		$newCardId = $model->generateCardId();
-
-        $model->insert([
-			'card_id' => $newCardId,
-            'card_name' => $post['card_name'],
-            'slug'  => url_title($post['card_name'], '-', true),
-            'card_type'  => $post['card_type'],
-			'image_url' => $post['card_image'],
-			'card_set' => $post['card_set'],
-        ]);
-
+    // Attempt to insert the new card into the database
+    if ($model->insert([
+        'card_id' => $newCardId,
+        'card_name' => $post['card_name'],
+        'slug'  => url_title($post['card_name'], '-', true),
+        'card_type'  => $post['card_type'],
+        'image_url' => $post['image_url'], 
+        'card_set' => $post['card_set'],
+    ])) {
+        // Insertion successful, redirect to success view
         return view('templates/header', ['title' => 'Add Card Information'])
             . view('pokemon/success')
             . view('templates/footer');
+    } else {
+        // Insertion failed, log the error
+        log_message('error', 'Database insert error: ' . print_r($model->errors(), true));
+
+
+        // Redirect back to the form with input and errors
+        return redirect()->back()->withInput()->with('errors', $model->errors());
     }
+} 
 	public function search()
 {
     $query = $this->request->getGet('query');

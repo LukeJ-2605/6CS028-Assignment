@@ -11,7 +11,7 @@ class PokemonModel extends Model
 	protected $primaryKey = 'card_id';
 	protected $useAutoIncrement = false;
 	
-	protected $allowedFields = ['card_name', 'slug', 'card_type'];
+	protected $allowedFields = ['card_name', 'slug', 'card_type', 'card_set', 'image_url'];
 
 	public function getPokemon($slug = false)
     {
