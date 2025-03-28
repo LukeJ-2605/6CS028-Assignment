@@ -1,70 +1,138 @@
-		body {
-			background-color: #D2B48C; /* A nice blue color */
-		}
-		.sticky-top {
-			background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-		}
-        .map {
-            height: 600px; /* The height of the map */
-        }
-		 .card-body {
-        text-align: center;
-		background-color: #F5F5DC;		/* Center text and images */
-		}
-		.card img {
-        max-width: 100%; /* Ensure the image is responsive */
-        height: auto; /* Maintain aspect ratio */
-		}
-		
-		.search-container {
-		position: relative; /* Position relative to contain the absolute positioning of suggestions */
-		}
+/* Light Mode Styles */
+body {
+    background-color: #D2B48C; /* A nice tan color */
+    color: black; /* Default text color */
+}
 
-		.suggestions-list {
-			max-height: 200px; /* Limit the height of the suggestions */
-			overflow-y: auto; /* Enable scrolling if there are many suggestions */
-			border: 1px solid #ccc; /* Border for the suggestions box */
-			background: white; /* Background color */
-			position: absolute; /* Position it absolutely */
-			z-index: 1000; /* Ensure it appears above other elements */
-			width: 100%; /* Match the width of the search bar */
-			margin-top: 0; /* No margin to align directly below the search bar */
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
-		}	
+.sticky-top {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
 
-		.suggestion-item {
-			padding: 8px; /* Padding for each suggestion */
-			cursor: pointer; /* Pointer cursor on hover */
-		}
+.map {
+    height: 600px; /* The height of the map */
+}
 
-		.suggestion-item:hover {
-			background-color: #f0f0f0; /* Highlight on hover */
-		}
-		.card-custom {
-			background-color: #F5F5DC; /* Dark brown color */
-			color: black; /* Change text color to white for better contrast */
-		}
-		.navbar-custom {
-			background-color: #F5F5DC; /* Tan color */
-			color: black; /* Dark text for better readability */
-		}
-		 /* Basic styles for the map container */
+.card-body {
+    text-align: center;
+    background-color: #F5F5DC; /* Center text and images */
+}
+
+.card img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.search-container {
+    position: relative; /* Position relative to contain the absolute positioning of suggestions */
+}
+
+.suggestions-list {
+    max-height: 200px; /* Limit the height of the suggestions */
+    overflow-y: auto; /* Enable scrolling if there are many suggestions */
+    border: 1px solid #ccc; /* Border for the suggestions box */
+    background: white; /* Background color */
+    position: absolute; /* Position it absolutely */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 100%; /* Match the width of the search bar */
+    margin-top: 0; /* No margin to align directly below the search bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
+}
+
+.suggestion-item {
+    padding: 8px; /* Padding for each suggestion */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.card-custom {
+    background-color: #F5F5DC; /* Light background color */
+    color: black; /* Dark text for better readability */
+}
+
+.navbar-custom {
+    background-color: #F5F5DC; /* Tan color */
+    color: black; /* Dark text for better readability */
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    h1 {
+		color: white;
+	}
+	body {
+        background-color: #121212; /* Dark background color */
+        color: white; /* Light text color */
+    }
+
+    .sticky-top {
+        background-color: rgba(30, 30, 30, 0.9); /* Dark semi-transparent background */
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Subtle light shadow */
+    }
+
+    .card-body {
+        background-color: #1E1E1E; /* Darker background for card body */
+    }
+
+    .suggestions-list {
+        background: #2C2C2C; /* Dark background for suggestions */
+        border: 1px solid #444; /* Darker border */
+    }
+
+    .suggestion-item {
+        color: white; /* Light text for suggestions */
+    }
+
+    .suggestion-item:hover {
+        background-color: #3A3A3A; /* Highlight on hover */
+    }
+
+    .card-custom {
+        background-color: #2C2C2C; /* Dark background for cards */
+        color: white; /* Light text for better contrast */
+    }
+
+    .navbar-custom {
+        background-color: #2C2C2C; /* Dark navbar */
+    }
+
+    /* Set text color in the navbar to white */
+    .nav-link {
+        color: white; /* Set text color to white */
+    }
+
+    /* Optional: Change text color on hover */
+    .navbar-custom .nav-link:hover {
+        color: #f0f0f0; /* Slightly lighter color on hover */
+    }
+
+    .navbar-toggler {
+        background-color: white; /* Set the toggler background to white */
+        border-color: white; /* Set the border color of the toggler to white */
+    }
+
+   
+}
+
+/* Basic styles for the map container */
+#map-container {
+    position: relative;
+    width: 100%; /* Full width */
+    height: 75vh; /* Full height of the viewport */
+}
+
+/* Optional: Adjust height for smaller screens */
+@media (max-width: 768px) {
     #map-container {
-        position: relative;
-        width: 100%; /* Full width */
-        height: 75vh; /* Full height of the viewport */
+        height: 50vh; /* 50% of the viewport height on smaller screens */
     }
+}
 
-    /* Optional: Adjust height for smaller screens */
-    @media (max-width: 768px) {
-        #map-container {
-            height: 50vh; /* 50% of the viewport height on smaller screens */
-        }
+@media (max-width: 480px) {
+    #map-container {
+        height: 30vh; /* 30% of the viewport height on very small screens */
     }
-
-    @media (max-width: 480px) {
-        #map-container {
-            height: 30vh; /* 30% of the viewport height on very small screens */
-        }
-    }
+}
